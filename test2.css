@@ -1,0 +1,26 @@
+.carousel-item {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+h1 {
+  font-family: "Century Gothic", serif;
+}
+h2 {
+  font-family: "Georgia", serif;
+}
+p {
+  font-family: "Century Gothic", serif;
+}
+h3 {
+  font-family: "Century Gothic", serif;
+}

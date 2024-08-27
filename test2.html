@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nimrod</title>
+    <link rel="stylesheet" href="./test2.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icon/favicon-16x16.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Mis proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Mi experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container px-4 text-center">
+      <h1 id="titulo-principal" class="text-center">Nimrod Valencia</h1>
+      <img
+        id="miImagen"
+        src="imagen1.jpg"
+        alt="Imagen"
+        width="150"
+        onclick="cambiarImagen()"
+      />
+      <section id="sobre-mi" class="seccion">
+        <h2>
+          Desarrollador web y videojuegos apasionado en crear experiencias
+          inmersivas.
+        </h2>
+        <p>Desde 2024</p>
+      </section>
+      <section id="proyectos" class="">
+        <h2>Mis proyectos</h2>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="thelastinvasion.png"
+                class="d-block w-100"
+                alt="Poster del juego The last invasion"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="chimerabugs.png"
+                class="d-block w-100"
+                alt="Poster del juego Chimera Bugs"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="a new hope.png"
+                class="d-block w-100"
+                alt="Poster del juego A New Hope"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="card col-12 col-md-5 col-lg-3 my-3 mx-1">
+            <img
+              src="https://cdn.leonardo.ai/users/a1c1d979-2368-4e56-a3c5-5b7c5c1e6cda/generations/06ec7e5d-41b4-4011-947e-e945f0edd8b8/Leonardo_Phoenix_In_the_shadows_an_enigmatic_alien_figure_emer_1.jpg"
+              class="card-img-top"
+              alt="Poster del juego The last invasion"
+            />
+            <div class="card-body">
+              <h5 class="card-title">#1 The Last Invasion</h5>
+              <p class="card-text">
+                The Last Invasion es un juego de terror en primera persona en el
+                que controlas a un alien que tiene por objetivo acabar con la
+                raza humana.
+              </p>
+              <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-5 col-lg-3 my-3 mx-1">
+            <img
+              src="https://cdn.leonardo.ai/users/a1c1d979-2368-4e56-a3c5-5b7c5c1e6cda/generations/c3c7bf75-f378-4d14-be8f-dbc1a44570bc/Leonardo_Phoenix_In_a_starkly_contrasting_battle_scene_warrior_3.jpg"
+              class="card-img-top"
+              alt="Poster del juego Chimera Bugs"
+            />
+            <div class="card-body">
+              <h5 class="card-title">#2 Chimera Bugs</h5>
+              <p class="card-text">
+                Chimera Bugs es un MMO de acción donde puedes controlar a los
+                bichos o humanos con sus respectivas clases y armas.
+              </p>
+              <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-5 col-lg-3 my-3 mx-1">
+            <img
+              src="https://cdn.leonardo.ai/users/a1c1d979-2368-4e56-a3c5-5b7c5c1e6cda/generations/64477747-ecef-4f1d-9822-ccc4fa20bfdd/Default_A_robotic_android_stands_atop_a_hill_its_body_illumina_0.jpg"
+              class="card-img-top"
+              alt="Poster del juego A New Hope"
+            />
+            <div class="card-body">
+              <h5 class="card-title">#3 A New Hope</h5>
+              <p class="card-text">
+                A New Hope es un juego de exploración donde controlas a un
+                simpático robot que despierta después de muchos años y que ahora
+                busca a su creador.
+              </p>
+              <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+          </div>
+        </div>
+        <table class="table">
+          <thead>
+            <tr class="table-dark">
+              <th scope="col">#</th>
+              <th scope="col">Año de estreno</th>
+              <th scope="col">Plataformas</th>
+              <th scope="col">Clasificación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>2028</td>
+              <td>Microsoft Windows; Playstation 5; Xbox Series X|S</td>
+              <td>+18</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>2030</td>
+              <td>Microsoft Windows; Playstation 5; Xbox Series X|S</td>
+              <td>+16</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>2033</td>
+              <td>Microsoft Windows</td>
+              <td>+12</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="experiencia" class="">
+        <h2>Mi experiencia</h2>
+        <br />
+        <h3>
+          <i>•HTML</i><br />
+          <i>•CSS</i><br />
+          <i>•JS</i><br />
+          <i>•Java </i><br />
+          <i>•Unity </i><br />
+          <i>•Blender</i><br /><br />
+        </h3>
+      </section>
+      <section id="contacto" class="">
+        <h2>Contacto</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputMessage" class="form-label">Mensaje</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputMessage"
+            />
+          </div>
+          <div class="mb-3 form-check"></div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer id="pie">
+      <p>Todos los derechos reservados</p>
+      <a href="#titulo-principal">Volver arriba</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="test2.js"></script>
+  </body>
+</html>
